@@ -25,9 +25,9 @@ Ext.define('Tualo.routes.ApacheLog', {
             }
         },
         before: function (action) {
-            Ext.require('Tualo.apachelog.lazy.Panel', function () {
-                action.resume();
-            }, this);
+            //Ext.require('Tualo.apachelog.lazy.Panel', function () {
+            action.resume();
+            //}, this);
         }
     }
 });

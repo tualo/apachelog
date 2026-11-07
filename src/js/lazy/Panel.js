@@ -13,6 +13,12 @@ Ext.define('Tualo.apachelog.lazy.Panel', {
     listeners: {
         boxready: 'onBoxReady'
     },
+    getWindowTitle: function () {
+        return 'Apache Log'
+    },
+    getWindowIcon: function () {
+        return 'fa-solid fa-gears';
+    },
     title: 'Apache Log',
     closable: true,
     layout: 'border',
